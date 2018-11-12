@@ -9,8 +9,8 @@ class Ship
     @booty = booty
     @@all << self
   end
-  
-  def self.all 
+
+  def self.all
     @@all
   end
 
