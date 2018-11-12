@@ -5,6 +5,11 @@ module FormsLab
 
     # code other routes/actions here
     get "/" do
+      "Welcome to the Nested Forms Lab!"
+      "let's navigate to the <a href = '/new'>/new</a>"
+    end
+
+    get "/new" do
       erb :pirates/new
     end
 
